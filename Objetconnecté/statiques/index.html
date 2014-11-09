@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<head>
+<title></title>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+<script type="text/javascript" src="jangular.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</head>
+<body class="list-group" ng-app="tabApp" ng-controller="tableCtrl as ctrl">
+<p ng-repeat="tab in tables">
+{{tab.nom}}
+</p>
+
+</body>
+</html>
